@@ -16,9 +16,9 @@
   </head>
   <body>
     <!--nav for xl screen-->
-    <nav class="navbar">
-      <div class="container  justify-content-center">
-        <ul class="list-unstyled d-flex">
+    <nav class="navbar navbar-expand-xl ml-auto mr-auto">
+      <div class="flex-grow-1 ">
+        <ul class="list-unstyled d-none d-xl-flex justify-content-center ">
           <li><a class="nav-link" href="#">Home</a></li>
           <li><a class="nav-link" href="#">About Me</a></li>
           <li><a class="nav-link" href="#">Portfolio</a></li>
@@ -26,6 +26,20 @@
           <li><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
+
+      <!--nav bar for small screen-->
+      <a class="navbar-toggler" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler">
+        <img src="./images/icons8-menu.svg" width="40" height="40" class="d-inline-block " alt="">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#">Resume</a>
+        <a class="nav-link" href="#">Contact</a>
+      </div>
+
     </nav>
 
 
