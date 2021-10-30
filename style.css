@@ -16,3 +16,15 @@
   padding: 12px 0;
   font-weight: 300;
 }
+.navbar {
+    z-index: 1;
+}
+#hero{
+  background-image: url(./images/brennan-burling-ay53qag90W8-unsplash\ \(1\).jpg);
+  background-size: cover;
+  height: 100vh;
+
+}
+#hero h1 {
+  padding-top: 168px;
+}
