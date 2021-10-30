@@ -25,6 +25,21 @@
   height: 100vh;
 
 }
-#hero h1 {
-  padding-top: 168px;
+
+#my-name{
+  font-family: 'Oleo Script', cursive;
+  font-size: 64px;
+}
+
+#hero .container-fluid {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
 }
