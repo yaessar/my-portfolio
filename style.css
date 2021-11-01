@@ -43,3 +43,8 @@
   flex-direction: column;
   padding: 0 15px;
 }
+
+#portfolio{
+  padding-top: 100px;
+  background-color: black;
+}
