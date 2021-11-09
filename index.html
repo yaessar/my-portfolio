@@ -21,7 +21,7 @@
   </head>
   <body>
     <!--nav for xl screen-->
-    <nav class="navbar navbar-expand-xl position-absolute w-100" id="xlNavbar">
+    <nav class="navbar fixed-top navbar-expand-xl position-absolute w-100" id="xlNavbar">
       <div class="flex-grow-1 ">
         <ul class="list-unstyled d-none d-xl-flex justify-content-center ">
           <li><a class="nav-item nav-link text-white" href="#">Home</a></li>
@@ -59,7 +59,8 @@
 
     <!--projects-->
     <div id="portfolio" class="container-fluid">
-      <h2 class="mb-4 text-white">Projects</h2>
+      <h4 class="title1">PROJECTS</h4>
+      <p class="sec-title">MY WORKS</p>
       <div class="row justify-content-center">
         <div class="col-19 col-lg-5 col-xl-5 mb-4 mx-4">
           <div class="image1 w-100">
@@ -89,36 +90,45 @@
     </div>
 
     <!--about me-->
-    <div class="container">
+    <div id="about" class="container-fluid">
       <div class="section-title">
-        <h2>About Me</h2>
+        <h4 class=" title1">ABOUT</h4>
+        <p class="sec-title">LEARN MORE ABOUT ME</p>
       </div>
-      <div class="main-info">
-        <p>I am a current student at Altcademy Bootcamp currently learning Front End Development.
+      <div class=" row justify-content-center">
+        <div class="col-12 col-lg-6 text-white">
+        <p class="main-info">I am a current student at Altcademy Bootcamp currently learning Front End Development.
           I have always had an interest in technology but only recently found out that I could have a stake
           in it through coding. I enjoy learning the programming languages as all the challenges I face only
           make the concepts stick when I go through them.
-
+           <br>
+           <br>
           I was previously  a freelance photographer and also carry a diploma in 3D Animation and Multimedia
           which i believe were the begining to me landing in tech.
         </p>
+        </div>
       </div>
     </div>
 
     <!--contact me--> 
-    <div class="container">
+    <div id="contact" class="container-fluid">
       <div class="section-title">
-        <h2>Contact</h2>
+        <h4 class=" title1">CONTACT</h4>
+        <p class="sec-title">CONTACT ME</p>
       </div>
       <div class="row">
-        <div class="col-12 col-xl-6 ">
-          <h2>Social Profiles</h2>
+        <div class="col-12 col-md-5 col-xl-5 info-box ">
+          <i class="bi bi-envelope" id="bs" ></i>
+          <h3>Social Profiles</h3>
+          <div class="social-links">
           <a href=""><i class="bi bi-twitter"></i></a>
           <a href=""><i class="bi bi-github"></i></a>
           <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
-        <div class="col-12 col-xl-6">
-          <h2>Email</h2>
+        </div>
+        <div class="col-12 col-md-5 col-xl-5 info-box2">
+          <i class="bi bi-share" id="bs" ></i>
+          <h3>Email</h3>
           <p>yagombat@gmail.com</p>
         </div>     
       </div>
