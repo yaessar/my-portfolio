@@ -21,38 +21,40 @@
   </head>
   <body>
     <!--nav for xl screen-->
-    <nav class="navbar fixed-top navbar-expand-xl position-absolute w-100" id="xlNavbar">
+    <nav class="navbar fixed-top navbar-expand-xl navbar-transparent navbar-scrolled  w-100 " id="xlNavbar">
       <div class="flex-grow-1 ">
         <ul class="list-unstyled d-none d-xl-flex justify-content-center ">
-          <li><a class="nav-item nav-link text-white" href="#">Home</a></li>
-          <li><a class="nav-item nav-link text-white" href="#">Projects</a></li>
-          <li><a class="nav-item nav-link text-white" href="#">About Me</a></li> 
-          <li><a class="nav-item nav-link text-white" href="#">Contact</a></li>
+          <li><a class="nav-item nav-link text-white" href="#">HOME</a></li>
+          <li><a class="nav-item nav-link text-white" href="#portfolio">PROJECTS</a></li>
+          <li><a class="nav-item nav-link text-white" href="#about">ABOUT ME</a></li> 
+          <li><a class="nav-item nav-link text-white" href="#contact">CONTACT</a></li>
         </ul>
       </div>
 
       <!--nav bar for small screen-->
-      <a class="navbar-toggler" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler">
-        <i class="bi bi-list"></i>
+      <a class="navbar-toggler py-0 pr-0 pl-2 border-0 position-relative collapsed" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler">
+        <i class="bi bi-list" id="menu"></i>
       </a>
 
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <a class="nav-item nav-link text-white" href="#">Home</a>
-        <a class="nav-item nav-link text-white" href="#">Projects</a>
-        <a class="nav-item nav-link text-white" href="#">About Me</a>
-        <a class="nav-item nav-link text-white" href="#">Contact</a>
+      <div class="collapse navbar-collapse px-4 pb-4 bg-black position-absolute" id="navbarMenu">
+        <ul class="list-unstyled">
+        <li><a class="nav-item nav-link text-white" href="#">Home</a></li>
+        <li><a class="nav-item nav-link text-white" href="#portfolio">Projects</a></li>
+        <li><a class="nav-item nav-link text-white" href="#about">About Me</a></li>
+        <li><a class="nav-item nav-link text-white" href="#contact">Contact</a></li>
+      </ul>
       </div>
 
     </nav>
-    <!--name-->
+    <!--name--> 
     <div id="hero" class="position-relative">
       <div class="container-fluid">
         <h1 class="text-white mb-2" id="my-name">Tereza Yagomba</h1>
         <h3 class="text-white mb-4">I'm a Front End Developer</h3>
         <div class="social-links">
-          <a href=""><i class="bi bi-twitter"></i></a>
-          <a href=""><i class="bi bi-github"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/boldlyessar" target="blank"><i class="bi bi-twitter"></i></a>
+          <a href="https://github.com/yaessar" target="blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/tereza-yagomba-5055a543/" target="blank"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div>
@@ -64,27 +66,39 @@
       <div class="row justify-content-center">
         <div class="col-19 col-lg-5 col-xl-5 mb-4 mx-4">
           <div class="image1 w-100">
-            <img class="w-100" src="./images/ameer-basheer-6ER4GFOpINY-unsplash (1).jpg">
+            <a href="https://compassionate-davinci-1f2132.netlify.app" target="blank">
+            <img class="w-100" src="./images/newsweek.jpg">
+            </a>
           </div>
-          <div class="words1 text-white "> this is a project about daash and dash</div>
+          <div class="words1 text-white "> 
+            <h3>Newsweek Clone</h3>
+            <p>This is a guided project I did on cloning the Newseek website. we had just been introduced to bootstrap and it assisted in getting to learn how to incooperate it in our websites.</p>
+            <p>HTML| CSS| BOOTSTRAP4</p>
+          </div>
         </div>
         <div class="col-12 col-lg-5 col-xl-5 mb-4 mx-4">
           <div class="image1 w-100">
-            <img class="w-100" src="./images/ameer-basheer-6ER4GFOpINY-unsplash (1).jpg">
+            <a href="https://gifted-bose-e8900c.netlify.app" target="blank">
+            <img class="w-100" src="./images/airbnb.jpg">
+            </a>
           </div>
-          <div class="words1 text-white"> this is a project about daash and dash</div>
+          <div class="words1 text-white">
+            <h3>Airbnb Clone</h3>
+            <p>After learning about bootstrap this project was an assignment to see if we had understood and could put it into practice without being guided.</p>
+            <p>HTML| CSS| BOOTSTRAP4</p>
+          </div>
         </div>
         <div class="col-12 col-lg-5 col-xl-5 mt-4 mx-4">
           <div class="image1 w-100">
             <img class="w-100" src="./images/ameer-basheer-6ER4GFOpINY-unsplash (1).jpg">
           </div>
-          <div class="words1 text-white"> this is a project about daash and dash</div>
+          <div class="words1 text-white"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
         </div>
         <div class="col-12 col-lg-5 col-xl-5 mt-4 mx-4">
           <div class="image1 w-100">
             <img class="w-100" src="./images/ameer-basheer-6ER4GFOpINY-unsplash (1).jpg">
           </div>
-          <div class="words1 text-white"> this is a project about daash and dash</div>
+          <div class="words1 text-white"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
         </div>
       </div>
     </div>
@@ -111,19 +125,19 @@
     </div>
 
     <!--contact me--> 
-    <div id="contact" class="container-fluid">
+    <div id="contact" class="container-fluid ">
       <div class="section-title">
         <h4 class=" title1">CONTACT</h4>
         <p class="sec-title">CONTACT ME</p>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-12 col-md-5 col-xl-5 info-box ">
           <i class="bi bi-envelope" id="bs" ></i>
           <h3>Social Profiles</h3>
           <div class="social-links">
-          <a href=""><i class="bi bi-twitter"></i></a>
-          <a href=""><i class="bi bi-github"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/boldlyessar" target="blank"><i class="bi bi-twitter"></i></a>
+          <a href="https://github.com/yaessar" target="blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/tereza-yagomba-5055a543/" target="blank"><i class="bi bi-linkedin"></i></a>
         </div>
         </div>
         <div class="col-12 col-md-5 col-xl-5 info-box2">
